@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount</title>
+</head>
+<body>
+    <script>
+        //var a = Number(prompt("Enter total amount"));
+        
+        var discount, netAmount;
+
+        if(a <= 20000){
+            discount = a*0.01
+        } else if(a <= 80000){
+            discount = a*0.02
+        } else if(total > 80000){
+            discount = a*0.03
+        }
+        
+        netAmount = a - discount;
+        document.write("-----Biriyani Hub-----" + "<br />");
+        document.write("Total Amount : " + a + "<br />");
+        document.write("Discounted Amount : " + discount + "<br />");
+        document.write("Net Payable Amount : " + netAmount + "<br />");
+    </script>
+</body>
+</html>

@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../image/Dis.jpg);
+  background-size: cover;
+}
+
+.navbar {
+  width: 80%;
+  margin: 10px auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  /*background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7) );*/
+}
+
+.logo h2 {
+  font-size: 55px;
+  color:aqua;
+}
+
+.nav_links {
+  width: 500px;
+  padding: 10px;
+}
+
+.nav_links ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.nav_links ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 14px;
+  position: relative;
+
+}
+
+.nav_links ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    display: block;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.nav_links ul li{
+ 
+  margin-left: 12px;
+}
+.nav_links ul ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    line-height: 32px;
+    display: none;
+}
+
+.nav_links ul ul li{
+
+  width: 300px;
+}
+
+.nav_links ul ul ul{
+    top: 0;
+    left: 100%;
+}
+
+.nav_links ul li:hover > ul{
+    display: block;
+}
+
+.nav_links ul li a:hover{
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 10px;
+    color: rgb(209, 7, 0);
+    background: rgb(109, 212, 253); 
+
+}
+.srch{
+  color: #fff;
+  width:200px;
+  height:40px;
+  /* border-radius: 10px; */
+  background: transparent;
+  border:1px solid rgb(138, 50, 50);
+  border-right: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  float: left;
+}
+.btn{
+  width: 100px;
+  height:40;
+  background: #f44336;
+  color:rgb(255, 255, 255);
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+  border: 2px solid #f44336;
+}
+.text-box{
+  width:80%;
+  margin: auto;
+  margin-top: 80px;
+  color: #fff;
+  display:flex;
+}
+
+.text-box h1{
+  font-size: 55px;
+}
+.text-box p{
+  font-size:16px;
+}
+
+.btn-1{
+  width:150px;
+  height: 50px;
+  border-radius: 10px;
+  background: #f44336;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 10px;
+}
+
+.btn-1 a{
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+.btn-1:hover{
+  background-color: plum;
+}
+
+span{
+  color: #f44336;
+  font-size: 60px;
+}
+
+.login{
+  margin-left: 150px;
+  width: 250px auto;
+  padding: 15px;
+  background: rgba(216, 112, 147, 0.726);
+  border-radius: 10px;
+  border: 1px solid rgba(102, 26, 241, 0.986);
+  
+}
+
+.login h3{
+  color:#fff;
+  text-align: center;
+  font-family: sans-serif;
+  background:rgb(63, 153, 153);
+  border-radius: 7px;
+  padding: 7px;
+}
+
+.login input{
+  width:230px;
+  margin-bottom: 15px;
+  background: transparent;
+  padding:12px;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+.login input:focus{
+  outline: none;
+}
+
+.signup{
+  width: 230px;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.sign a{
+  text-decoration: none;
+  color: rgb(224, 15, 197);
+  font-weight: 700;
+  font-size: 15px;
+
+}
+
+.sign{
+  width: 100px;
+  height: 20px;
+  border-radius: 7px;
+  border: none;
+  margin-right: 5px;
+  cursor: pointer;
+
+}
+
+.sign:hover{
+  background-color: aqua;
+}
+
+.lgw{
+  font-size: 15px;
+  font-weight: 400;
+  width: 230px;
+  font-family: sans-serif;
+  /* font-size: 15px; */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icon{
+  width: 100px;;
+  display: flex;
+  margin-left: 50px;
+}
+.icon i{
+  /* margin-right:1px; */
+  /* display: flex;  */
+  font-size: 20px;
+  font-weight: 400;
+  width: 230px;
+  margin: 0px;
+  cursor: pointer;
+  transition-duration: .5s;
+  justify-content: space-between;
+  margin: 5px;
+}
+.icon i:hover{
+  color: aqua;
+}
+
+.testimonial{
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.testimonial h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.testimonial p{
+  color:rgb(10, 41, 31);
+} 
+
+.testimonial-col{
+  flex-basis: 30%;
+  padding: 15px;
+  background: rgba(22, 13, 17, 0.7);
+  border-radius: 10px;
+  text-align: left;
+  position: relative;
+  cursor: pointer;
+  margin-top: 50px;
+  transition: 0.5s;
+  box-shadow: 2PX 2PX 5PX 3PX purple;
+}
+
+.testimonial-col img{
+  width: 90px;
+  height: 90px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  top: -40px;
+  position: absolute;
+  margin-bottom: 15px;
+}
+
+.testimonial-col p{
+  margin-top: 60px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.row{
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -20px;
+}
+
+.testimonial-col h3{
+  color:rgba(50, 173, 142, 0.726);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.testimonial-col h5{
+  color:#f44336;
+  font-weight: 100;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.testimonial-col:hover{
+  transform: scale(1.3);
+  z-index: 10000;
+  background: rgb(219, 114, 114);
+  color: black;
+}
+/* __________________ */
+.service{
+  width: 100%;
+  background-color: aqua;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.service h1{
+  font-size: 55px;
+  font-family: bold;
+  color: #d41609;
+}
+
+.service p{
+  color: #777;
+}
+
+.service-col{
+  flex-basis: 28%;
+  background:pink;
+  padding: 20px;
+  border-radius: 7px;
+  text-align: left;
+  cursor: pointer;
+  top: 0;
+  display: flex;
+  position: relative;
+  transition: .5s;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.7)
+}
+
+ /* .service-col {
+  flex-basis: 28%;
+  padding: 20px;
+  border-radius: 10px;
+  background: aliceblue;
+  text-align: left;
+  display: flex;
+  cursor: pointer;
+  top: 0;
+  position: relative;
+  transition: 0.5s;
+}  */
+
+
+.service-col:hover{
+  top: -15;
+  box-shadow: 2px 2px 5px 5px black;
+}
+
+.service-col h3 {
+  font-size: 20px;
+  color: rgb(43, 45, 192);
+  padding-bottom: 10px;
+}
+
+
+.service-col i {
+  
+  font-size: 40px;
+  color: rgb(43, 45, 192);
+  margin-left: 5px;
+  margin-right: 20px;
+  top: 0;
+}
+
+#row2{
+  padding-bottom: 50px;
+}
+
+
+
+
